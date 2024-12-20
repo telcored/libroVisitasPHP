@@ -7,7 +7,7 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="index.php">Visitas Actuales</a></li>
         <li><a href="historico.php">Visitas Historicas</a></li>
-        <li><a href="#">Reportes</a></li>
+        <li><a href="reportes.php">Reportes</a></li>
       </ul>
     </div>
   </nav>

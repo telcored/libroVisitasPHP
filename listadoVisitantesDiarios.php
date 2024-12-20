@@ -6,19 +6,21 @@ $items = $visitas->mostrarDia();
 
 
 ?>
-
+<br>
 
 <table class="striped">
 
     <caption>
         <div class="col s3"></div>
-        <h5 class="card-panel   col s6">Visitas hoy:   <?= date('d-m-y'); ?></h5><br>
+        <h5 class="card-panel   col s6">Visitas hoy:   <?= date('d-m-y'); ?></h5>
         <div class="col s3"></div>
     </caption>
 
 
     <thead>
+        
         <tr>
+        
             <th>Nombres</th>
             <th>Apellidos</th>
             <th>Departamento</th>
