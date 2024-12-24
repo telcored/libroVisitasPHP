@@ -26,6 +26,7 @@ if ($validacion == 0) {
         "motivo" => $_POST['motivo'],
         "fecha" => date('Y-m-d H:i:s'),
         "tarjeta" => $_POST['tarjeta'],
+       
 
     );
 

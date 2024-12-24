@@ -7,10 +7,7 @@
 
     <div class="row">
         <br>
-        <button class="waves-effect waves-light btn">
-        <i class="material-icons left">search</i>
-        Buscar
-        </button>
+      
 
         <div class="col s12">
             <?php require_once 'listadoVisitantesHistorico.php'; ?>

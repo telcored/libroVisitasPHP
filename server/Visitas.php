@@ -57,7 +57,14 @@
            
         }
 
+        
+        public function busqueda($buscador){
+            $conexion= $this->conexion();
+            $sql = "SELECT * FROM t_visitas WHERE  nombre LIKE '%$buscador%' OR apellidos LIKE '%$buscador%' OR departamento LIKE '%$buscador%' OR tarjeta LIKE '%$buscador%' OR fecha LIKE '%$buscador%' OR motivo LIKE '%$buscador%'";
+            $respuesta = mysqli_query($conexion,$sql);
+            return mysqli_fetch_all($respuesta, MYSQLI_ASSOC);
 
+        }
 
     }
 

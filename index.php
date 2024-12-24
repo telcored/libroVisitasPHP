@@ -4,7 +4,6 @@ require_once 'header.php';
 
 ?>
 
-
 <div class="container">
 
     <?php require_once 'menu.php'; ?>
@@ -38,7 +37,7 @@ require_once 'header.php';
                 <input type="text" name="tarjeta" id="tarjeta" placeholder="Tarjeta">
             </div>
 
-            <div class="input-field col s3">
+            <div class="input-field col s6">
                 <i class="material-icons prefix">comment</i>
                 <label for="motivo"></label>
                 <input type="text" name="motivo" id="motivo" placeholder="Motivo">
@@ -55,29 +54,10 @@ require_once 'header.php';
 
 
 
-
-
-            <div class="input-field col s3" id='buscar'>
-                <button class="waves-effect waves-light btn">
-                    <i class="material-icons left">search</i>
-                    Buscar
-                </button>
-            </div>
-
-            <div class="input-field col s3">
-
-            </div>
-
-
-
         </div>
-
-
-
-
     </form>
 
-    
+
     <div class="row">
         <div class="col s12">
             <?php require_once 'listadoVisitantesDiarios.php'; ?>
@@ -89,5 +69,5 @@ require_once 'header.php';
 <br><br>
 
 
-<?php require_once 'footer.php'; 
+<?php require_once 'footer.php';
 ?>
